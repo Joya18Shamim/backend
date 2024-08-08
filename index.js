@@ -14,6 +14,9 @@ app.get('/twitter',(req,res) => {
 app.get('/login',(req,res)=> {
     res.send('<h1>Login hereee</h1>')
 })
+app.get('/register',(req,res)=> {
+    res.send('<h1>register hereee</h1>')
+})
 
 
 
